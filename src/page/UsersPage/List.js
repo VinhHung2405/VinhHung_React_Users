@@ -21,7 +21,7 @@ class List extends Component {
               onClick={() => {
                 this.handleDelelte(user.id);
               }}
-              className="btn btn-danger"
+              className="btn btn-danger mr-1"
             >
               Delete
             </button>
@@ -29,10 +29,11 @@ class List extends Component {
               onClick={() => {
                 this.handleGetDetail(user.id);
               }}
-              className="btn btn-info"
+              className="btn btn-info mr-1"
             >
               Edit
             </button>
+            <button className="btn btn-success">Update</button>
           </td>
         </tr>
       );

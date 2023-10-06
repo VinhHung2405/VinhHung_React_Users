@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className='pb-5 border-bottom'>
-        <NavLink className="mx-3 btn btn-warning" to ="/user-page">Users</NavLink>
+        <h1 className=" text-center text-info" to ="/user-page">USERS</h1>
       </div>
     ) 
   }
